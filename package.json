@@ -1,0 +1,70 @@
+{
+  "name": "ogd-inspection-form",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://ajaybiswasdev.github.io/reactwasabi",
+  "dependencies": {
+    "@date-io/luxon": "^1.3.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-regular-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@material-ui/pickers": "^3.2.10",
+    "aws-sdk": "^2.929.0",
+    "axios": "^0.21.1",
+    "chroma-js": "^2.1.2",
+    "clsx": "^1.1.1",
+    "luxon": "^1.25.0",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.2",
+    "react-aws-s3": "^1.5.0",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^6.14.2",
+    "react-scripts": "4.0.3",
+    "react-transition-group": "^4.4.1",
+    "s3": "^4.4.0",
+    "sass-material-colors": "^0.0.5"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/chroma-js": "^2.1.3",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "gh-pages": "^3.2.1",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
